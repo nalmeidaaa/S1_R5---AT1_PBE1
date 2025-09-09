@@ -1,7 +1,3 @@
-//2. Criar um projeto com uma rota POST /soma que receba 3 números no body e retorne o resultado da soma dos números recebidos.
-//Verifique antes da soma se os os campos recebidos possuem valores numéricos;
-//Se necessário, informe ao cliente os problemas encontrados;
-
 const express = require("express");
 const app = express();
 const PORT = 8081;
